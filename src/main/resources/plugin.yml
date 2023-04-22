@@ -1,0 +1,15 @@
+name: HQItemStorage
+version: 1.0
+api-version: 1.19
+main: kr.hqservice.storage.HQItemStorage
+authors: [ Cosine_A ]
+softdepend:
+  - MS-Core
+  - ProtocolLib
+
+commands:
+  test:
+    permission: op
+  storage:
+    permission: op
+    description: 아이템 추가 관련 명령어입니다.
